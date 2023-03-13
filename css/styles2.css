@@ -1,0 +1,848 @@
+@media screen and (max-width: 992px){
+    * {
+        margin: 0%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    header p {
+        font-size: 80%;
+    }
+
+    .rightHeader {
+        padding-top: 0%;        
+    }
+
+    .botonHead {
+        width: 100%;
+        height: 41px;
+        background: linear-gradient(45deg, #521e8a, #1b87da);
+        border-radius: 12%;
+        font-size: 80%;
+        margin-left: 20%;
+    }
+
+    /* ---------- one ----------  */
+    
+    .one {
+        width: 100%;
+        height: 560px;
+    }
+
+    .right {
+        height: 100%;
+    }
+
+    .right img {
+        width: 90%;
+        height: 60%;
+        padding-top: 50%;
+    }
+
+    .left {
+        height: 560px;
+        width: 50%;
+    }
+
+    .left h1{
+        font-size: 400%;
+        padding-right: 6%;
+    }
+
+    .left p{
+        font-size: 150%;
+        padding-left: 25%;
+    }
+
+    .botonGeneral{
+        height: 8%;
+        width: 60%;
+        border: 1px solid #5b576e;
+        border-radius: 5px;
+        margin-left: 12%;
+    }
+    
+    .blanco {
+        height: 75%;
+        width: 53%;
+        font-size: 15px;
+        border-radius: 4px;
+    }
+    
+    .oscuro {
+        height: 78%;
+        width: 40%;
+        font-size: 14px;
+        border-radius: 4px;
+    }
+
+    /* ---------- Fonctionnalites ---------- */
+
+    .fonctionnalites {
+        height: 750px;
+        width: 100%;
+    }
+
+    .tituloFonctionnalites {
+        font-size: 250%;
+        padding-top: 3%;
+    }
+    .laptop {
+        padding-left: 5%;
+    }
+
+    .computador {
+        height: 340px;
+        width: 95%;
+        padding-left: 15%;
+    }
+
+    .textoFonctionnalites {
+        width: 45%;
+        height: 300px;
+        font-size: 100%;
+        padding-bottom: 6%;
+        padding-right: 10%;
+    }
+
+    .textoFonctionnalites ul {
+        width: 120%;
+    }
+
+    .textocompu {
+        width: 90%;
+    }
+
+    .textoFonctionnalites h1 {
+        font-size: 225%;
+    }
+
+    .textoFonctionnalites h2 {
+        font-size: 170%;
+    }
+
+    .textoFonctionnalites ul {
+        width: 95%;
+    }
+
+    /* ---------- Plans & Pricing ---------- */
+
+    .plans {
+        height: 360px;
+        width: 100%;
+    }
+
+    .tituloParrafo {
+        font-size: 330%;
+    }
+
+    .tituloParrafo p{
+        height: 160px;
+        color: white;
+        font-size: 45%;
+        padding-top: 40px;
+    }
+
+    /* ----- boxes ----- */
+
+    .boxes {
+        background-color: #1E172F;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    /* ---------- boxLeft ---------- */
+
+    .boxLeft {
+        background-color: white;
+        color: rgb(71, 70, 70);
+        width: 28%;
+        height: 32%;
+        margin-left: 64%;    
+    }
+
+    .boxCenter {
+        background-color: white;
+        color: rgb(71, 70, 70);
+        width: 28%;
+        height: 32%;
+        border-radius: 10px; 
+        margin-left: 35%;
+    }
+
+    .boxRight {
+        background-color: white;
+        color: rgb(71, 70, 70);
+        width: 28%;
+        height: 32%;
+        border-radius: 10px; 
+        margin-left: 6%;
+    }
+
+    .precio {
+        width: 100%;
+        font-size: 435%;
+    }
+
+    .precio p {
+        height: 85px;
+        padding-top: 25%;
+    }
+
+    .free {
+        font-size: 37% ;
+        color: rgb(109, 108, 108);
+    }
+
+    .boxLeft button {
+        background-color: #0f0a18;
+        height: 7%;
+        font-size: 90%;
+        border-radius: 7px;
+        color: white;
+        margin-bottom: 2%
+    }
+
+    .boxCenter button {
+        height: 7%;
+        width: 200px;
+        font-size: 14px;
+        border-radius: 7px;
+        color: white;
+        margin-bottom: 2%;
+    }
+
+    .boxRight button {
+        height: 150px;
+        width: 70%;
+        font-size: 90%;
+        border-radius: 7px;
+        color: white;
+        margin-bottom: 2%;
+    }
+
+    .boxes p {
+        letter-spacing: 3px;
+        line-height: 20px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    /* --------------- Footer --------------- */
+
+    .footer {
+        margin-top: 165%;
+        background-color: white;
+        font-size: 80%;
+    }
+
+    .rightFooter {
+        width: 30%;
+        padding-bottom: 2.8%;
+    }
+
+
+}
+
+/* ------------------------------ Media Query  ------------------------------ */
+
+@media screen and (max-width: 770px){
+    * {
+        margin: 0%;
+    }
+
+    header {
+        height: 75px;
+        width: 100%;
+        font-size: 110%;
+    }
+
+    header img{
+        height: 75px;
+        width: 20%;
+    }
+
+    .botonHead {
+        color: white;
+        width: 100%;
+        height: 33px;
+        background: linear-gradient(45deg, #521e8a, #1b87da);
+        border-radius: 5PX;
+        font-size: 16PX;
+    }
+    
+    .about {
+        color: rgb(184, 189, 187);
+    }
+
+    .rightHeader {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    /* -------------------- one -------------------- */
+
+    .one {
+        display: flex;
+        height: 255px;
+        width: 100%;
+    }
+
+    .right {
+        width: 5%;
+    }
+
+    .right img {
+        width: 250%;
+        height: 175px;
+        padding-top: 110%;
+    }
+
+    .left {
+        background-color: #2E2550;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: flex-start;
+        align-items: center;
+        height: 255px;
+        width: 50%;
+    }
+
+    .left h1{
+        font-size: 30px;
+        padding-left: 40px;
+    }
+    
+    .left p{
+        font-size: 14px;
+        padding-left: 35%;
+    }
+
+    .botonGeneral{
+        display: flex;
+        height: 23px;
+        width: 180px;
+        border: 1.8px solid #555068;
+        margin-left: 19%;
+    }
+    
+    .blanco {
+        background-color: white;
+        color: #EB66AB;
+        height: 20px;
+        width: 90px;
+        font-size: 7px;
+        border: none;
+        border-radius: 4px;
+    }
+    
+    .oscuro {
+        background-color: #2E2550;
+        color: white;
+        height: 20px;
+        width: 75px;
+        font-size: 7px;
+        border-color: white;
+        border-radius: 3px;
+        border: 1.5px solid #555068;
+    }
+
+    /* ---------- Fonctionnalites ---------- */
+
+    .fonctionnalites {
+        display: flex;
+        flex-direction: column;
+        background-color: #F1F2F7;
+        height: 670px;
+        width: 100%;
+    }
+    
+    .tituloFonctionnalites h1{
+        font-size: 37px;
+        padding-top: 1px;
+    }
+    
+    .imgTxt {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 500px;
+        align-items: flex-end;
+    }
+    
+    .laptop {
+        height: 55px;
+        padding-right: 31%;
+    }
+    .computador {
+        padding-top: 85px;
+        height: 250px;
+    }
+
+    .textoFonctionnalites {
+        width: 60%;
+        letter-spacing: 0.5px;
+        line-height:20px;
+        font-size: 13px;
+        padding-top: 270px;
+        
+    }
+
+    .textocompu{
+        font-size: 17px;
+        width: 80%;
+        padding-right: 45px;
+    }
+    
+    .textoFonctionnalites h1 {
+        width: 100%;
+        height: 50px;
+        padding-top: 55px;
+        font-size: 35px;
+    }
+    
+    .textoFonctionnalites h2 {
+        font-size: 29px;
+        padding-left: 30px;
+    }
+
+    .textoFonctionnalites ul {
+        width: 87%;
+    }
+
+    .chuloCirculo {
+        width: 45%;
+        padding-right: 0%;
+    }
+    
+    /* ---------- plans & pricing ---------- */
+
+    .tituloParrafo h1{
+        padding-top: 7px;
+        padding-bottom: 7px;
+        font-size: 40px;
+    }
+    
+    .parrafoPlans {
+        height: 230px;
+        background-color: #1E172F;
+    }
+
+    /* ---------- BOXES ---------- */
+
+    .boxes {
+        background-color: #d3d3d3;
+        width: 100%;
+        height: 11500%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-top: 20px;
+        align-items: center;
+    }
+
+    /* ---------- boxLeft ---------- */
+
+    .boxLeft {
+        background-color: white;
+        color: rgb(71, 70, 70);
+        width: 40%;
+        height: 32%;
+        border-radius: 10px;
+        margin-left: -50%;
+    }
+
+    .boxCenter {
+        background-color: white;
+        color: rgb(71, 70, 70);
+        width: 40%;
+        height: 32%;
+        border-radius: 10px; 
+        margin-top: 15px;
+        margin-left: 50%;
+    }
+
+    .boxRight {
+        background-color: white;
+        color: rgb(71, 70, 70);
+        width: 40%;
+        height: 32%;
+        border-radius: 10px; 
+        margin-left: -50%;
+        margin-top: 15px;
+    }
+
+    .precio {
+        width: 100%;
+        height: 80px;
+        font-size: 55px;
+    }
+
+    .precio p {
+        padding-left: 10px;
+    }
+
+    .free {
+        font-size: 17px ;
+        color: rgb(109, 108, 108);
+        padding-right: 2px;
+    }
+
+    .boxLeft button {
+        height: 35px;
+        width: 200px;
+        font-size: 14px;
+        border-radius: 7px;
+        color: white;
+        margin-bottom: 5px;
+    }
+
+    .boxCenter button {
+        height: 35px;
+        width: 200px;
+        font-size: 14px;
+        border-radius: 7px;
+        color: white;
+        margin-bottom: 5px;
+    }
+
+    .boxRight button {
+        height: 75px;
+        width: 200px;
+        font-size: 14px;
+        border-radius: 7px;
+        color: white;
+        margin-bottom: 5px;
+    }
+
+    .precioRight {
+        width: 308px;
+        height: 45px;
+        font-size: 55px;
+    }
+
+    .boxes p {
+        letter-spacing: 3px;
+        line-height: 20px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+        /* --------------- Footer --------------- */
+
+    .footer {
+        width: 100%;
+        font-size: 55%;
+        padding-top: 47%;
+        background-color: white;
+    }
+
+}
+
+/* ------------------------------ Media Query  ------------------------------ */
+
+@media screen and (max-width: 480px){
+    * {
+        margin: 0%;
+    }
+
+    header {
+        background-color: #1e1730;
+        height: 125px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-size: 125%;
+    }
+
+    header img{
+        height: 60px;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .botonHead {
+        color: white;
+        width: 100%;
+        height:37px;
+        background: linear-gradient(45deg, #521e8a, #1b87da);
+        border-radius: 12%;
+        font-size: 90%;
+        margin-left: 20%;
+    }
+    
+    .about {
+        color: rgb(184, 189, 187);
+        margin-left: 31px;
+    }
+
+    .rightHeader p {
+        padding: 0%;
+    }
+
+    /* -------------------- one -------------------- */
+
+    .one {
+        display: flex;
+        flex-direction: column;
+        height: 510px;
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .left {
+        background-color: #F1F2F7;
+        width: 100%;
+    }
+
+    .left h1{
+        color: black;
+        font-size: 155%;
+        letter-spacing: 12%;
+        padding-right: 210px;
+        margin-top: 3%;
+    }
+    
+    .left p{
+        color: black;
+        font-size: 90%;
+        padding-left: 6%;
+        line-height: 20px;
+    }
+
+    .botonGeneral{
+        height: 32px;
+        width: 45%;
+        border: 1% solid #080808;
+        margin-left: -5%;
+        margin-bottom: 4%;
+    }
+    
+    .blanco {
+        background-color: rgb(15, 15, 15);
+        color: white;
+        height: 26px;
+        width: 55%;
+        font-size: 70%;
+        border: none;
+        border-radius: 7px;
+    }
+    
+    .oscuro {
+        background-color: white;
+        color: black;
+        height: 27px;
+        width: 40%;
+        font-size: 70%;
+        border-color: white;
+        border-radius: 7px;
+        border: 1.8px solid #555068;
+    }
+    
+    .right img {
+        width: 27%;
+        height: 215px;
+        margin: 5%;
+        margin-left: 270px;
+        padding-top: 10px;
+    }
+
+    /* ---------- Fonctionnalites ---------- */
+
+    .fonctionnalites {
+        width: 100%;
+        height: 700px;
+    }
+    
+    .tituloFonctionnalites h1{
+        font-size: 90%;
+    }
+    
+    .imgTxt {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .laptop {
+        width: 90%;
+        height: 55px;
+        padding-right: 50%;
+    }
+    .computador {
+        padding-top: 25%;
+        height: 200px;
+        margin-left: 39%;
+    }
+
+    .textoFonctionnalites {
+        width: 70%;
+        line-height: 150%;
+        font-size: 80%;
+        padding-top: 50%;
+    }
+
+    .textocompu{
+        font-size: 105%;
+        width: 80%;
+    }
+    
+    .textoFonctionnalites h1 {
+        line-height: 50%;
+        padding-top: 25%;
+        font-size: 245%;
+        padding-right: 2%;
+    }
+    
+    .textoFonctionnalites h2 {
+        font-size: 180%;
+    }
+    
+    /* ---------- plans & pricing ---------- */
+
+    .plans {
+        background-color: #2b233f;
+        height: 1100px;
+    }
+
+    .tituloParrafo h1{
+        padding-bottom: 1%;
+        font-size: 60%;
+    }
+
+    .tituloParrafo p {
+        font-size: 30%;
+        height: 130px;
+        color: rgb(255, 255, 255);
+    }
+
+    /* ---------- BOXES ---------- */
+
+    .boxes {
+        background-color: #F1F2F7;
+        width: 100%;
+        padding-top: 5%;
+        align-items: center;
+        color: rgb(71, 70, 70);
+    }
+
+    /* ---------- boxLeft ---------- */
+
+    .boxLeft {
+        background-color: white;
+        color: rgb(71, 70, 70);
+        width: 60%;
+        height: 32%;
+        border-radius: 10px;
+        margin-left: 1%;
+    }
+
+    .boxCenter {
+        background-color: white;
+        color: rgb(71, 70, 70);
+        width: 60%;
+        height: 32%;
+        border-radius: 10px;
+        margin-left: 1%;
+    }
+
+    .boxRight {
+        background-color: white;
+        color: rgb(71, 70, 70);
+        width: 60%;
+        height: 32%;
+        border-radius: 10px;
+        margin-left: 1%;
+    }
+
+    .precio {
+        width: 100%;
+        height: 80px;
+        font-size: 55px;
+    }
+
+    .precio p {
+        padding-left: 10px;
+    }
+
+    .free {
+        font-size: 17px ;
+        color: rgb(109, 108, 108);
+        padding-right: 2px;
+    }
+
+    .boxLeft button {
+        height: 35px;
+        width: 200px;
+        font-size: 14px;
+        border-radius: 7px;
+        color: white;
+        margin-bottom: 5px;
+    }
+
+    .boxCenter button {
+        height: 35px;
+        width: 200px;
+        font-size: 14px;
+        border-radius: 7px;
+        color: white;
+        margin-bottom: 5px;
+    }
+
+    .boxRight button {
+        height: 75px;
+        width: 200px;
+        font-size: 14px;
+        border-radius: 7px;
+        color: white;
+        margin-bottom: 5px;
+    }
+
+    .precioRight {
+        width: 290px;
+        height: 80px;
+        font-size: 55px;
+    }
+
+    .boxes p {
+        letter-spacing: 3px;
+        line-height: 20px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+        /* --------------- Footer --------------- */
+
+    .footer {
+        flex-direction: column;
+        padding-top: 12%;
+        background-color: white;
+        height: 100px;
+    }
+
+    .leftFooter {
+        font-size: 170%;
+        padding-top: 5%;
+        margin-left: 13%;
+    }
+
+    .rightFooter {
+        margin-left: 35%;
+    }
+
+    .rightFooter img {
+        width: 30px;
+        height: 35px;
+    }
+
+}
+
+

@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1E172F;
+    color: rgb(192, 190, 190);
+    font-size: 25px;
+    text-align: center;
+}
+
+.botonHead {
+    color: white;
+    width: 160%;
+    height: 67px;
+    background: linear-gradient(45deg, #521e8a, #1b87da);
+    border-radius: 5PX;
+    font-size: 23PX;
+    margin-left: 45%;
+}
+
+.about {
+    color: white;
+}
+
+.rightHeader {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    padding-left: 27px;
+}
+
+
+.right img {
+    width: 250px;
+    height: 419px;
+    margin: 45%;
+    padding-top: 50px;
+}
+
+.one {
+    display: flex;
+    height: 100%;
+    background-image: url(../img/hojas.jpg);
+}
+
+.left {
+    background-color: #2E2550;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    height: 700px;
+    width: 50%;
+}
+
+.left h1{
+    font-size: 90px;
+    padding-right: 11%;
+}
+
+.left p{
+    font-size: 27px;
+    padding-left: 14%;
+}
+
+.botonGeneral{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    height: 60px;
+    width: 385px;
+    border: 3px solid #555068;
+    border-radius: 5px;
+    margin-right: 2%;
+}
+
+.blanco {
+    background-color: white;
+    color: #EB66AB;
+    height: 50px;
+    width: 230px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.oscuro {
+    background-color: #2E2550;
+    color: white;
+    height: 50px;
+    width: 135px;
+    font-size: 20px;
+    border-color: white;
+    border-radius: 4px;
+}
+
+/* ---------- Fonctionnalites ---------- */
+
+.fonctionnalites {
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F2F7;
+    height: 650px;
+}
+
+.tituloFonctionnalites {
+    font-size: 55px;
+    color: #d1458d;
+    padding-top: 55px;
+    text-align: center;
+}
+
+.imgTxt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: flex-end;
+}
+
+.laptop {
+    padding-left: 550px;
+}
+
+.textoFonctionnalites {
+    height: 350px;
+    display: flex;
+    letter-spacing: 3px;
+    line-height: 27px;
+    flex-direction: column;
+    font-size: 17px;
+    padding-left: 100px;
+    padding-right: 25px;
+}
+
+.textoFonctionnalites h1 {
+    font-size: 45px;
+    color: #ce428a;
+    padding-left: 30px;
+}
+
+.textoFonctionnalites h2 {
+    font-size: 29px;
+    color: #ce428a;
+    padding-left: 30px;
+}
+
+.chuloCirculo {
+    list-style: '★';
+    color: #ce428a;
+    padding-right: 220px;
+}
+
+/* ---------- Plans & Pricing ---------- */
+
+.plans {
+    background-color: #1E172F;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    height: 1100px;
+}
+
+.tituloParrafo {
+    color: white;
+    font-size: 70px;
+    padding-top: 25px;
+}
+
+.tituloParrafo p{
+    color: #BCBAC0;
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+/* ----- boxes ----- */
+
+.boxes {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+/* ----- boxLeft -----  */
+
+.boxLeft {
+    background-color: white;
+    color: rgb(71, 70, 70);
+    width: 385px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.boxLeft img {
+    padding-top: 15px;
+}
+
+.boxLeft h4 {
+    color: #ce428a;
+    font-size: 30px;
+}
+
+.precio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F5F5F5;
+    width: 340px;
+    height: 80px;
+    font-size: 55px;
+}
+
+.free {
+    font-size: 20px ;
+    color: rgb(109, 108, 108);
+}
+
+.boxLeft ul {
+    letter-spacing: 3px;
+    line-height: 27px;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+/* ------------- iconos -------------  */
+
+.estrellaRosa {
+    list-style: '★';
+    color: #ce428a;
+    font-size: 20px;
+}
+
+.p{
+    color: rgb(71, 70, 70);
+    font-size: 16px;
+}
+
+.chuloRosa {
+    list-style: '✔';
+    color: #ce428a;
+    font-size: 20px;
+}
+
+.equis {
+    list-style: '★';
+    font-size: 20px;
+}
+
+.estrella {
+    list-style: '★';
+    font-size: 20px;
+}
+
+.chulo {
+    list-style: '✔';
+    font-size: 20px;
+}
+
+/* ----------------------------------- */
+
+.boxLeft p {
+    letter-spacing: 3px;
+    line-height: 20px;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.boxLeft button {
+    height: 50px;
+    width: 220px;
+    letter-spacing: 2px;
+    font-size: 17px;
+    background: linear-gradient(55deg, #d17ca7, #b3216c);
+    border: none;
+    color: white;
+}
+
+/* ----- boxCenter -----  */
+
+.boxCenter {
+    background-color: white;
+    color: rgb(71, 70, 70);
+    width: 385px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.boxCenter img {
+    padding-top: 15px;
+}
+
+.boxCenter h4 {
+    color: #263247;
+    font-size: 30px;
+}
+
+.precio {
+    background-color: #F5F5F5;
+    width: 385px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+}
+
+.free {
+    font-size: 20px ;
+    color: rgb(109, 108, 108);
+}
+
+.boxCenter ul {
+    letter-spacing: 3px;
+    line-height: 27px;
+    list-style: none;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.boxCenter p {
+    letter-spacing: 3px;
+    line-height: 20px;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.boxCenter button {
+    height: 50px;
+    width: 220px;
+    letter-spacing: 2px;
+    font-size: 17px;
+    background-color: #263247;
+    border: none;
+    color: white;
+}
+
+/* ----- boxRight -----  */
+
+.boxRight {
+    background-color: white;
+    color: rgb(71, 70, 70);
+    width: 385px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.boxRight img {
+    padding-top: 15px;
+}
+
+.boxRight h4 {
+    color: #263247;
+    font-size: 30px;
+}
+
+.precioRight .free {
+    font-size: 20px ;
+    color: rgb(109, 108, 108);
+}
+
+.boxRight ul {
+    letter-spacing: 3px;
+    line-height: 27px;
+    list-style: none;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.boxRight p {
+    letter-spacing: 3px;
+    line-height: 20px;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.precioRight {
+    background-color: #F5F5F5;
+    width: 386px;
+    height: 50px;
+    font-size: 50px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.boxRight button {
+    height: 50px;
+    width: 220px;
+    letter-spacing: 2px;
+    font-size: 17px;
+    background-color: #263247;
+    border: none;
+    color: white;
+}
+
+/* ---------------- footer ---------------- */
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.leftFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    font-size: 170%;
+}
+
+.mivfx {
+    color: #b3216c;
+}
+
+.rightFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 20%;
+    padding-bottom: 1%;
+}
+
+.rightFooter img {
+    width: 12%;
+    padding-top: 10%;
+}
